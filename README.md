@@ -41,7 +41,7 @@ npm install
 ### Running the development server
 
 ```sh
-  npm run dev
+npm run dev
 ```
 
 ## Author
