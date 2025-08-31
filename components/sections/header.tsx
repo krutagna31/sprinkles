@@ -18,8 +18,7 @@ function Header() {
   return (
     <header className="py-6">
       <ViewContainer className="flex justify-between">
-        <Link href="#">Next.js Template</Link>
-
+        <Link href="/">Sprinkles</Link>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" size="icon">
