@@ -16,7 +16,7 @@ export default function HomePage() {
         </p>
         <div className="flex justify-center gap-4">
           <Button size="lg" asChild>
-            <Link href="/">Get Started</Link>
+            <Link href="/installation">Get Started</Link>
           </Button>
           <Button size="lg" variant="secondary" asChild>
             <Link href="/">View Components</Link>
