@@ -25,12 +25,12 @@ function CommandBlock({ commands }: CommandBlockProps) {
     <Tabs
       defaultValue={command}
       onValueChange={(value) => setCommand(value as keyof Commands)}
-      className="rounded-md bg-zinc-900"
+      className="bg-muted rounded-md"
     >
       <div className="flex items-center justify-between">
-        <div className="flex items-center gap-2 px-2">
+        <div className="flex items-center gap-2 pl-2">
           <TerminalSquare size="16" />
-          <TabsList className="bg-inherit">
+          <TabsList>
             {Object.keys(commands).map((key) => (
               <TabsTrigger key={key} value={key}>
                 {key}
