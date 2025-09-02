@@ -10,7 +10,7 @@ const containerVariants = cva("mx-auto px-4", {
     },
   },
   defaultVariants: {
-    size: "default",
+    size: "sm",
   },
 });
 

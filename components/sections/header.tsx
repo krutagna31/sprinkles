@@ -17,7 +17,7 @@ function Header() {
 
   return (
     <header className="py-6">
-      <ViewContainer className="flex justify-between">
+      <ViewContainer className="flex justify-between" size='lg'>
         <Link href="/">Sprinkles</Link>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
