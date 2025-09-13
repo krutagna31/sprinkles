@@ -9,8 +9,9 @@ const josefinSans = Josefin_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js Template",
-  description: "A Next.js template with shadcn/ui and tailwind css installed",
+  title: "Sprinkles",
+  description:
+    "A set of beautifully designed components that you can customize, extend and build on",
 };
 
 export default function RootLayout({
