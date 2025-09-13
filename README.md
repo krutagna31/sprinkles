@@ -1,6 +1,6 @@
-# Next.js Template
+# Sprinkles
 
-A starter template repository with next.js using app router, pre-configured with typescript, tailwind css and shadcn/ui.
+A set of beautifully designed components that you can customize, extend and build on.
 
 ## Table of contents
 
@@ -28,13 +28,13 @@ Follow these steps to get a copy of the project up and running on your local mac
 ### Cloning the repository
 
 ```sh
-git clone https://github.com/krutagna31/nextjs-template.git
+git clone https://github.com/krutagna31/sprinkles.git
 ```
 
 ### Installing dependencies
 
 ```sh
-cd nextjs-template
+cd sprinkles
 npm install
 ```
 
