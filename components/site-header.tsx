@@ -27,12 +27,12 @@ function SiteHeader() {
   const { setTheme } = useTheme();
 
   return (
-    <header className="py-6">
+    <header className="py-3">
       <ViewContainer className="flex items-center justify-between">
         <Link href="#">Sprinkles</Link>
         <NavigationMenu className="hidden md:flex">
           <NavigationMenuList>
-            {links.map((link, index) => (
+            {links.map((link) => (
               <NavigationMenuItem key={link.title} asChild>
                 <NavigationMenuLink href={link.href}>
                   {link.title}
@@ -43,7 +43,10 @@ function SiteHeader() {
         </NavigationMenu>
         <div className="flex items-center gap-2">
           <Button asChild variant="ghost" size="icon">
-            <Link href="https://github.com/krutagna31/sprinkles" target="_blank">
+            <Link
+              href="https://github.com/krutagna31/sprinkles"
+              target="_blank"
+            >
               <svg
                 role="img"
                 viewBox="0 0 24 24"
